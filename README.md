@@ -15,6 +15,7 @@ Software dependencies:
 * Arduino IDE
 * AppGosu app from google play store
 
+
 Hardware dependencies : 
 * Arduino UNO
 * Android smart phone
