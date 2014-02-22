@@ -42,7 +42,7 @@ void EventLoop() {
     // user event code here
 
         if( app.eventButton(1)) {
-                app.sound("music.mp3");
+                //app.sound("music.mp3"); // edit your mp3 file
                 digitalWrite(LED13,HIGH); // LED on
         }
         if( app.eventButton(2)) {
@@ -83,7 +83,8 @@ void myStart3(void) {
 
 
 void myStart(void) {
-    // user starting code here
+
+  // user starting code here
   app.clearAll();
   app.background(0,0,0);
   app.textSize(70); 
@@ -99,8 +100,7 @@ void myStart(void) {
   app.fill(255,255,50);
   app.text("Draw text", 80, 400);
   app.text("and graphics", 200, 450);
-  //app.textBox("123456", 150, 150, 200, 20, 10,100,0);
-  
+
   app.stroke(255,255,255);
   app.line(50,150, 430,150);
   app.fill(250, 250, 200); 
@@ -113,19 +113,14 @@ void myStart(void) {
   app.fill(200, 100, 160);
   app.arcDeg(400,250+25,50,50, 0, 270);
   
-  //app.image("star.jpg", 100, 500, 100, 100);
-  app.image("appledOn.png", 80, 480, 100, 150); 
+  //app.image("appledOn.png", 80, 480, 100, 150);  // edit your image
   app.fill(255,255,50);
   app.text("draw image", 220, 550);
   
-  //app.loadVideo("blast1.mp4", 250, 400, 150, 150);
+  //app.loadVideo("blast1.mp4", 250, 400, 150, 150); // edit your mp4 file
   //app.playVideo();
   
-  //app.image("appbk.png", 0, 0, 480, 800);
-  //app.image("apptitle.png", 70, 20, 350, 80);
-  //app.image("appledOff.png", 120, 160, 250, 400); 
-  //app.image("appcompany.png", 300, 750, 150, 60); 
-  
+
   app.text("control widjet", 100, 690);
   app.button(" button 1"  , 50, 700, 150, 80, 1);
   app.button(" button 2 ", 250, 700, 150, 80, 2);
