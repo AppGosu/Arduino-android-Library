@@ -1,4 +1,6 @@
 # built application files
+*.ino
+*.pde
 *.apk
 *.ap_
 
