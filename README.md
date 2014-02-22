@@ -16,6 +16,6 @@ Software dependencies:
 * AppGosu app from google play store
 
 Hardware dependencies : 
-* Arduino UNO etc.
-* Android device
+* Arduino UNO
+* Android smart phone
 * AppGosu bluetooth module
