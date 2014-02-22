@@ -2,7 +2,6 @@
 // @CopyRight by AppGosu
 // 2014.02.05
 
-//#include "AppGosu.h"
 #include "AppGosu.h"
 AppGosu app;
 
