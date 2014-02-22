@@ -1,4 +1,4 @@
-Arduno-android-Library
+Arduino-android-Library
 ==============
 
 Arduno-android-Library for AppGosu
