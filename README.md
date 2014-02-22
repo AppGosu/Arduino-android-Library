@@ -1,6 +1,6 @@
 Arduino-android-Library
-abc
 ==============
+Only arduino IDE, no eclipse, no android SDK 
 
 Arduno-android-Library for AppGosu
 
