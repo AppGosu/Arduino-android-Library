@@ -1,4 +1,8 @@
-Arduno-Library
+Arduno-android-Library
 ==============
 
-Arduno-Library for AppGosu
+Arduno-android-Library for AppGosu
+
+makes android app using this library
+no eclipse, no android SDK
+only Arduino IDE
