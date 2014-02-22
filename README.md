@@ -22,6 +22,6 @@ Hardware dependencies :
 * AppGosu bluetooth module
  
 
-Please, visit   www.appgosu.com
+More information   www.appgosu.com
  
               www.embeddedapp.com 
