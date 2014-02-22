@@ -20,3 +20,7 @@ Hardware dependencies :
 * Arduino UNO
 * Android smart phone
 * AppGosu bluetooth module
+ 
+
+Please, visit www.appgosu.com
+              www.embeddedapp.com 
