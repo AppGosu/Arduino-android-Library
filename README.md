@@ -37,6 +37,8 @@ AppGosu app;
 
 void setup() {
    app.start();
+   app.clearAll();
+   
    app.text("ABC", 10, 100);
    app.line(20, 150, 200, 150);
    app.rect(30, 180, 100, 100);
