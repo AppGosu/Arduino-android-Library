@@ -24,7 +24,7 @@ Software dependencies:
 
 
 Hardware dependencies : 
-* Arduino UNO
+* Arduino UNO, Leonardo, Due, Micro, Mega 2560, Mini, Nano etc
 * Android smart phone (on android 2.3.3 or higher)
 * AppGosu bluetooth module
  
