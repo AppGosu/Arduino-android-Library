@@ -12,9 +12,15 @@ only Arduino IDE
 
 -------------------------
 
+
+Features
+-------------
+- Arduino-android library
+
 Software dependencies:
-* Arduino IDE
-* AppGosu app from google play store
+- Arduino IDE
+- AppGosu app from google play store
+- **No eclipse, No android SDK**
 
 
 Hardware dependencies : 
@@ -23,6 +29,26 @@ Hardware dependencies :
 * AppGosu bluetooth module
  
 
-More information   www.appgosu.com
+Code example
+--------------
+```java
+#include "AppGosu.h"
+AppGosu app;
+
+void setup() {
+   app.start();
+   app.text("ABC", 10, 100);
+   app.line(20, 150, 200, 150);
+   app.rect(30, 180, 100, 100);
+}
+
+```
+
+![result](http://4.bp.blogspot.com/-mb_H962BjRQ/UwB4Q44ZAiI/AAAAAAAAAB8/ZgrN0U6mDV0/s1600/concept1.png)
+
+
+More information
+----------------
+  www.appgosu.com
  
-              www.embeddedapp.com 
+  www.embeddedapp.com 
