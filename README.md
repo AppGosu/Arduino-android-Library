@@ -4,7 +4,7 @@ Only arduino IDE, no eclipse, no android SDK (make your own app!)
 
 Arduino-android-Library for AppGosu
 
-Desing your onw android app using this library.
+Design your own android app using this library.
 
 no eclipse, no android SDK
 
