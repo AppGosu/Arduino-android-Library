@@ -1,0 +1,58 @@
+#######################################
+# Syntax Coloring Map for AppGosu
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+AppGosu	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+background	KEYWORD2
+fill	KEYWORD2
+noFill	KEYWORD2
+stroke	KEYWORD2
+noStroke	KEYWORD2
+textSize	KEYWORD2
+text	KEYWORD2
+line	KEYWORD2
+ellipse	KEYWORD2
+rect	KEYWORD2
+triangle	KEYWORD2
+arcDeg	KEYWORD2
+image	KEYWORD2
+loadVideo	KEYWORD2
+playVideo	KEYWORD2
+stopVideo	KEYWORD2
+sound	KEYWORD2
+stopSound	KEYWORD2
+button	KEYWORD2
+clearButton	KEYWORD2
+editText	KEYWORD2
+clearEditText	KEYWORD2
+clearAll	KEYWORD2
+nop	KEYWORD2
+checkVer	KEYWORD2
+btConnected	KEYWORD2
+btWaiting	KEYWORD2
+setScale	KEYWORD2
+btName	KEYWORD2
+btPIN	KEYWORD2
+setDelayCmd	KEYWORD2
+start	KEYWORD2
+serialMessage	KEYWORD2
+eventButton	KEYWORD2
+eventEditText	KEYWORD2
+messageEditText	KEYWORD2
+
+
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
