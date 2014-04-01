@@ -19,13 +19,13 @@ Features
 
 Software dependencies:
 - Arduino IDE
-- AppGosu app from google play store
+- "AppGosu for Android shield" app from google play
 - **No eclipse, No android SDK**
 
 
 Hardware dependencies : 
 * Arduino UNO, Leonardo, Due, Micro, Mega 2560, Mini, Nano etc
-* Android smart phone (on android 2.3.3 or higher)
+* Android smart phone (on android 4.0.3 or higher)
 * AppGosu bluetooth module
  
 
