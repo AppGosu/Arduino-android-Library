@@ -18,7 +18,7 @@ void setup() {
 void loop() {
     app.background(0,0,0);
     app.textSize(50);
-    app.Ttext("--- Text Size ---", 50, 70);
+    app.text("--- Text Size ---", 50, 70);
     
     for(int i=1; i<6; i++) {
         app.textSize(20*i);
