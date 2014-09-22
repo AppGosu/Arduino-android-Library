@@ -410,7 +410,8 @@ String AppGosu::messageEditText(int id) {
 		m_id = 0;
                     return( m_data);   
 	} 
-	return(NULL); 
+	//return(NULL); 
+	return(""); 
 }
 boolean AppGosu::eventImageButton(int id) {
 	if( m_type == 5051 ) {
