@@ -1,0 +1,5 @@
+AppGosu Library for Arduino-android
+
+Version 1.1
+
+@CopyRight by AppGosu
