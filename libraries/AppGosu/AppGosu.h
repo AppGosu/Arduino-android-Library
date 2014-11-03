@@ -1,10 +1,9 @@
 /*
-AppGosu :: Arduino-Android Library
+AppGosu :: Arduino-Android Library  ver. 2.0
 By AppGosu.com
-Updated : 2014-03-04
+Updated : 2014-10-10
 License : BSD
 More information : Please visit    www.AppGosu.com
-
 */ 
 
 
@@ -21,13 +20,8 @@ More information : Please visit    www.AppGosu.com
 #define _TX_PIN   3
 #endif
 
-
 //------------------------------------------
 #define appgosu_buf_size 100
-//#define delay_cmd 250
-//#define delay_cmd 200
-
-
 
 class AppGosu {
 
@@ -61,13 +55,11 @@ class AppGosu {
     void start(long baud);
     void btWaiting(void);
     void checkVer(void);
-
     // command
     void cmd(String);
     void command(String);
     void nop(void);
     void clearAll(void);
-    
     // Color
     void background(int,int,int);
     void fill(int,int,int);
@@ -102,16 +94,13 @@ class AppGosu {
     void imageButton(String,String,int,int,int,int,int);
     void clearImageButton(int);
     void mousePressRect(int,int,int,int,int);
-
-
     // Hardware
     void setDelayCmd(int d);
     void setScale(int);
     boolean btConnected(void);
     void btName(String);
     void btPIN(int);
-    void byPass(String);
-
+    void bypass(String);
     // Message
     void serialMessage(void);
     boolean eventButton(int);
@@ -119,15 +108,47 @@ class AppGosu {
     String messageEditText(int);
     boolean eventImageButton(int);
     boolean eventMousePressRect(int);
-
-    //+++++    test +++++//
-    void Ttext(String,int,int);
-
- 
-
+    void upLoading(void);
+    void appBody(void);
+    boolean btDisconnected(void);
+    boolean eventMouseX(int);
+    int messageMouseX(int);
+    void MouseX(void); 
+    boolean eventMouseY(int);
+    int messageMouseY(int);
+    void vibrate(int);
+    void vibrate(int,int, int, int, int, int, int);
+    void vibrateCancel(void);
+    void textView(String, int, int, int, int );
+    void textView(String, int, int, int, int, int );
+    void textViewSetText(String s,  int id );
+    void textViewSetColor(int, int, int, int);
+    void textViewSetSize(int,  int);
+    void textViewSetAlign(int,  int);
+    void clearTextView(int);
+    void showToast(String s); 
+    void checkBox(String s, int x1, int y1, int y2, int id );
+    boolean eventCheckBox(int id);
+    int messageCheckBox(int id);
+    void clearCheckBox(int id ); 
+    void switchBox(String s, int x1, int y1, int y2, int id );
+    boolean eventSwitchBox(int id);
+    int messageSwitchBox(int id);
+    void clearSwitchBox(int id );
+    void seekBar(int x1, int y1, int w, int mMax, int mProgress, int id );
+    boolean eventSeekBar(int id);
+    int messageSeekBar(int id);
+    void setDelayEventSeekBar(int id);
+    void clearSeekBar(int id );
+    void setDelayEvent(int id);  // defaule : 10
+    void dialogBox(String str1, String str2, int id ); 
+    boolean eventDialogBox(int id);
+    int messageDialogBox(int id);
+    void numberPicker(int x, int id );
+    boolean eventNumberPicker(int id);
+    int messageNumberPicker(int id);
 
 };
-
 
 
 #endif

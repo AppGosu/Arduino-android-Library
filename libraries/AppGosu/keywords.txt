@@ -25,6 +25,7 @@ rect	KEYWORD2
 triangle	KEYWORD2
 arcDeg	KEYWORD2
 image	KEYWORD2
+imagePath	KEYWORD2
 loadVideo	KEYWORD2
 playVideo	KEYWORD2
 stopVideo	KEYWORD2
@@ -48,9 +49,43 @@ serialMessage	KEYWORD2
 eventButton	KEYWORD2
 eventEditText	KEYWORD2
 messageEditText	KEYWORD2
-
-
-
+upLoading	KEYWORD2
+appBody	KEYWORD2
+imageButton	KEYWORD2
+clearImageButton	KEYWORD2
+mousePressRect	KEYWORD2
+clearMousePressRect	KEYWORD2
+bypass	KEYWORD2
+vibrate	KEYWORD2
+vibrateCancel	KEYWORD2
+textView	KEYWORD2
+textViewSetText	KEYWORD2
+textViewSetColor	KEYWORD2
+textViewSetSize	KEYWORD2
+textViewSetAlign	KEYWORD2
+clearTextView	KEYWORD2
+showToast	KEYWORD2
+checkBox	KEYWORD2
+clearCheckBox	KEYWORD2
+eventCheckBox	KEYWORD2
+messageCheckBox	KEYWORD2
+checkBoxSet	KEYWORD2
+switchBox	KEYWORD2
+clearSwitchBox	KEYWORD2
+eventSwitchBox	KEYWORD2
+messageSwitchBox	KEYWORD2
+seekBar	KEYWORD2
+clearSeekBar	KEYWORD2
+eventSeekBar	KEYWORD2
+messageSeekBar	KEYWORD2
+setDelayEventSeekBar	KEYWORD2
+dialogBox	KEYWORD2
+eventDialogBox	KEYWORD2
+messageDialogBox	KEYWORD2
+numberPicker	KEYWORD2
+eventNumberPicker	KEYWORD2
+messageNumberPicker	KEYWORD2
+btDisconnected	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
