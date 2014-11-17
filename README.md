@@ -10,7 +10,10 @@ no eclipse, no android SDK
 
 only Arduino IDE
 
-updated ver.2.0
+- updated ver.2.0
+  widjets : Widgets : button, imageButton, editText, dialogBox
+            textView, checkBox, switchBox, seekBar
+            numberPicker, vibrator, toast
 
 -------------------------
 
