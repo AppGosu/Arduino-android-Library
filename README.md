@@ -14,7 +14,7 @@ only Arduino IDE
 - widjets : 
 -          button, imageButton, editText, dialogBox
 -          textView, checkBox, switchBox, seekBar
--          numberPicker, vibrator, toast
+-          numberPicker, vibrate, toast
 
 -------------------------
 
