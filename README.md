@@ -1,4 +1,4 @@
-Arduino-android-Library
+Arduino-android-Library ver.2.0
 ==============
 Only arduino IDE, no eclipse, no android SDK (make your own app!)
 
