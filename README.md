@@ -10,6 +10,8 @@ no eclipse, no android SDK
 
 only Arduino IDE
 
+updated ver.2.0
+
 -------------------------
 
 
