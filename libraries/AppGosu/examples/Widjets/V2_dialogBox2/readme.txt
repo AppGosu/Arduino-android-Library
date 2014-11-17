@@ -1,0 +1,1 @@
+Widjet examples for AppGosu Library ver.2.0
